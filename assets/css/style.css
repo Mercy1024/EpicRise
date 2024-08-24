@@ -133,6 +133,17 @@ textarea {
   font: inherit;
 }
 
+
+.logo span{
+  display: inline-block;
+}
+
+.colorEdit{
+  color: var(--safety-orange); 
+}
+
+
+
 input,
 textarea { width: 100%; }
 
@@ -347,7 +358,8 @@ body {
 .hero-subtitle {
   color: var(--eerie-black);
   font-size: var(--fs-5);
-  font-weight: var(--fw-500);
+  font-weight: 900;
+  display: flex;
 }
 
 .hero-title { margin-block: 12px 8px; }
